@@ -17,7 +17,7 @@ import {
 } from 'lucide-react';
 
 // --- Configuration & Constants ---
-const apiKey = "AIzaSyA4_qJyAfMtOCgT1_l05A7FMe87T3vTkao"; // API Key injected by environment
+const apiKey = import.meta.env.VITE_GOOGLE_API_KEY; // API Key injected by environment
 
 const LANGUAGES = [
   { code: 'en-US', name: 'English', flag: '🇺🇸' },
